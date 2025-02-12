@@ -26,6 +26,9 @@ elif (len(email[email.rfind(".") + 1:]) < 2
 # Se comprueba que no haya un punto justo después de la @
 elif (email.rfind(".") - email.find("@") == 1):
     print("Debe haber al menos un caracter entre la @ y el punto de dominio")
+# Se comprueba que no haya un punto ni al principio ni al final
+elif (email[0] == "." or email[-1] == "."):
+    print("El email no puede tener un punto ni al principio ni al final")
 # Si ha llegado hasta aquí es que está bien
 else:
     print("Email correcto")
