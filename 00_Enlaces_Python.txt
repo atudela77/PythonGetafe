@@ -1,0 +1,5 @@
+Documentación de Python
+https://docs.python.org/es/3.13/index.html
+
+La biblioteca estándar de Python
+https://docs.python.org/es/3.13/library/index.html
