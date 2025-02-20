@@ -118,5 +118,30 @@ where plantilla.hospital_cod in
 select hospital.hospital_cod from hospital where hospital.nombre in ('provincial','general')
 );
 
--- 13. Mostrar el apellido de los enfermos ue nacieron antes que el señor Miller
-select * from enfermo;
+-- 13. Mostrar el apellido de los enfermos que nacieron antes que el señor Miller
+select enfermo.apellido
+from enfermo
+where enfermo.fecha_nac < 
+(
+    select enfermo.fecha_nac
+    from enfermo
+    where enfermo.apellido = 'Miller G.'
+);
+
+-- 14. Crear un informe para evaluar cómo van las cuentas generales de la empresa.
+--      Para ello, necesitamos saber lo que cobra cada persona por cada oficio de 
+--      manera detallada. Necesitamos el máximo salario y el mínimo más la media 
+--      salarial, el total de sueldos y el número de trabajadores que hay en cada
+--      puesto de toda la base de datos.
+select personal.oficio, max(personal.salario) maximo, round(avg(personal.salario),2) media, 
+sum(personal.salario) suma, min(personal.salario) minimo, count(personal.oficio) numero
+from
+(
+select emp.oficio, emp.salario from emp
+union
+select plantilla.funcion, plantilla.salario from plantilla
+union
+select doctor.especialidad, doctor.salario from doctor
+) personal
+group by personal.oficio
+order by maximo desc;
