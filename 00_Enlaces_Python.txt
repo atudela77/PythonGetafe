@@ -3,3 +3,10 @@ https://docs.python.org/es/3.13/index.html
 
 La biblioteca estándar de Python
 https://docs.python.org/es/3.13/library/index.html
+
+Oracle & Python
+https://oscaraguadoweb.com/oracle/tutorial-python-oracle-oracle-and-python-python-oracle-oracle-python/
+
+F-strings
+https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=89&codigo=90&inicio=75
+

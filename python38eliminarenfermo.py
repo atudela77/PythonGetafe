@@ -27,5 +27,16 @@ conn.commit()
 # conn.rollback
 # Cerramos el cursor
 cursor.close()
+# Una vez que hemos cerrado el cursor podemos hacer más consultas sobre
+# el mismo objeto. Creando uno nuevo con la conexión.
+sqlselect = "select * from enfermo"
+# Creamos un cursor sobre la misma variable.
+cursor = conn.cursor()
+cursor.execute(sqlselect)
+print("------------ENFERMOS-------------")
+for row in cursor:
+    print("Inscripción: " + str(row[0]) + " - " + row[1])
+print("---------------------------------")
+cursor.close()
 # Desconectamos de la base de datos
 conn.close()
