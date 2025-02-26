@@ -10,3 +10,6 @@ https://oscaraguadoweb.com/oracle/tutorial-python-oracle-oracle-and-python-pytho
 F-strings
 https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=89&codigo=90&inicio=75
 
+Paquetes
+https://www.freecodecamp.org/espanol/news/como-construir-tu-primer-paquete-de-python/
+
