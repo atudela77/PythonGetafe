@@ -13,3 +13,5 @@ https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=89&c
 Paquetes
 https://www.freecodecamp.org/espanol/news/como-construir-tu-primer-paquete-de-python/
 
+Match
+https://www.geeksforgeeks.org/python-match-case-statement/
