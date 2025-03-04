@@ -15,3 +15,7 @@ https://www.freecodecamp.org/espanol/news/como-construir-tu-primer-paquete-de-py
 
 Match
 https://www.geeksforgeeks.org/python-match-case-statement/
+
+Pandas
+https://pandas.pydata.org/docs/user_guide/10min.html#basic-data-structures-in-pandas
+
