@@ -19,3 +19,9 @@ https://www.geeksforgeeks.org/python-match-case-statement/
 Pandas
 https://pandas.pydata.org/docs/user_guide/10min.html#basic-data-structures-in-pandas
 
+Revisar esta documentación
+https://docs.google.com/spreadsheets/d/1sYeNK1HQZgfinraUb3AY1BZVq0ckuW4dpkYfsL8GUCk/edit?gid=110360321#gid=110360321
+
+HTML
+https://www.w3schools.com/html/
+
